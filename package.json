@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-tutorial",
+  "version": "1.0.0",
+  "description": "Code-along respository following [The Net Ninja Bootstrap Crash Course](https://www.youtube.com/watch?v=tt5uUMQgzl0&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&index=16)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nluciano233/bootstrap-crashcourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nluciano233/bootstrap-crashcourse/issues"
+  },
+  "homepage": "https://github.com/nluciano233/bootstrap-crashcourse#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

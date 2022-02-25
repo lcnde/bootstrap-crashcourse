@@ -1,0 +1,26 @@
+// The order of the items in this file is very important
+
+// custom variables
+$primary: #c29939;
+$light: #fbf5e5;
+
+// import the funcitons & variables
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+//deprecated
+$custom-theme-colors: (
+  "altlight": #f2ebfa,
+  "altdark": #522192
+);
+
+//deprecated
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+// it's important to write the overwriting variables above the import statement
+// taking a look inside bootstrap variables code we see that it's like
+// `$primary: $blue !default;`
+// which means use blue only if there is no other value declared
+// import bootstrap 
+@import '../node_modules/bootstrap/scss/bootstrap';
+
